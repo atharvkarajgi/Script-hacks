@@ -1,6 +1,6 @@
 #checks if all arguments are provided arg1=repository name; arg2=commit message
 if [ $# -ne 2 ]; then
-    echo "Usage: $0 <directory name> <commit message>"
+    echo 'Usage: $0 <directory name> "commit message"'
     exit 1
 fi
 cd $1
